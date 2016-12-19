@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        NumbersAPIClient.getRandomTrivia { (neededString) in
+            print("*************************")
+            print(neededString)
+            print("*************************")
+        }
     }
 
     override func didReceiveMemoryWarning() {

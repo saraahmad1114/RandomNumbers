@@ -15,6 +15,7 @@
 		1B24F7C41E086A1800D86E64 /* RandomNumberFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F7C31E086A1800D86E64 /* RandomNumberFactsTests.swift */; };
 		1B24F7CF1E086A1800D86E64 /* RandomNumberFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F7CE1E086A1800D86E64 /* RandomNumberFactsUITests.swift */; };
 		1B24F7DD1E086A8E00D86E64 /* NumbersAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F7DC1E086A8E00D86E64 /* NumbersAPIClient.swift */; };
+		1B48D42F1E0A24740049F606 /* FactDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B48D42E1E0A24740049F606 /* FactDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B24F7CE1E086A1800D86E64 /* RandomNumberFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberFactsUITests.swift; sourceTree = "<group>"; };
 		1B24F7D01E086A1800D86E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B24F7DC1E086A8E00D86E64 /* NumbersAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersAPIClient.swift; sourceTree = "<group>"; };
+		1B48D42E1E0A24740049F606 /* FactDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1B24F7B01E086A1800D86E64 /* ViewController.swift */,
 				1B24F7B21E086A1800D86E64 /* Main.storyboard */,
 				1B24F7DC1E086A8E00D86E64 /* NumbersAPIClient.swift */,
+				1B48D42E1E0A24740049F606 /* FactDataStore.swift */,
 				1B24F7B51E086A1800D86E64 /* Assets.xcassets */,
 				1B24F7B71E086A1800D86E64 /* LaunchScreen.storyboard */,
 				1B24F7BA1E086A1800D86E64 /* Info.plist */,
@@ -265,6 +268,7 @@
 				1B24F7B11E086A1800D86E64 /* ViewController.swift in Sources */,
 				1B24F7AF1E086A1800D86E64 /* AppDelegate.swift in Sources */,
 				1B24F7DD1E086A8E00D86E64 /* NumbersAPIClient.swift in Sources */,
+				1B48D42F1E0A24740049F606 /* FactDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
